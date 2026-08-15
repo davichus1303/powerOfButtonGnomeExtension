@@ -3,8 +3,11 @@
   "description": "Adds a power off button to the top bar. Clicking it shows the standard confirmation dialog before shutting down the computer.",
   "uuid": "power-off-button@local",
   "shell-version": [
-    "46"
+    "46",
+    "47",
+    "48"
   ],
   "version": 1,
-  "version-name": "1.0"
+  "version-name": "1.0",
+  "url": "https://github.com/davichus1303/powerOfButtonGnomeExtension"
 }
