@@ -109,7 +109,7 @@ export default class PowerOffExtension extends Extension {
     enable() {
         this._systemActions = SystemActions.getDefault();
         this._button = new PowerOffButton(this._systemActions);
-        Main.panel.addToStatusArea('power-off-button', this._button, 0, 'right');
+        Main.panel.addToStatusArea('power-off-button', this._button, 100, 'right');
     }
 
     /**
